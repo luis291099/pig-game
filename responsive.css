@@ -1,0 +1,20 @@
+@media screen and (max-width: 760px) {
+   main {
+       width: 100vw;
+       height: 100vh;
+       flex-direction: column;
+   }
+   .btn {
+       position: initial;
+   }
+   .options {
+       position: fixed;
+       bottom: 20px;
+       left: 0;
+       width: 100vw;
+       height: 30px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+}

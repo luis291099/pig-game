@@ -1,20 +1,48 @@
 @media screen and (max-width: 760px) {
-   main {
-       width: 100vw;
-       height: 100vh;
-       flex-direction: column;
-   }
-   .btn {
-       position: initial;
-   }
-   .options {
-       position: fixed;
-       bottom: 20px;
-       left: 0;
-       width: 100vw;
-       height: 30px;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-   }
+    main {
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    .btn {
+        position: initial;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+        transform: none;
+    }
+    .options {
+        position: fixed;
+        bottom: 20px;
+        left: 0;
+        width: 100vw;
+        height: 30px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .btn-text {
+        display: none;
+    }
+    .player {
+        flex: none;
+        padding: 2rem;
+        box-sizing: border-box;
+    }
+    .score {
+        margin-bottom: 0;
+        font-size: 5rem;
+    }
+    .current {
+        padding: 0.8rem;
+    }
+    .name {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+    .dice {
+        bottom: 20px;
+    }
 }
